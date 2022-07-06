@@ -1,0 +1,101 @@
+<html>
+    <head>
+        <title style="color: rgb(255, 0, 0); font-size: large;"> Night Fear </title>
+        <link rel="stylesheet" href="conteiner.css">
+        <link rel="stylesheet" href="background.css">
+        <style type="text/css">
+            body
+            {
+                background-image: url(image/dark.png);
+                background-size: cover;
+                background-attachment:fixed;
+                cursor: url(Asset/Cursor/windows-10-aero-reloaded-cursor/arrow.cur),auto;
+            }
+        </style>
+        <body>
+            <div>
+            <a href="https://www.facebook.com/profile.php?id=100067491577596" target="_blank" onclick="audio.play()"><img class="facebook" src="Icon/facebook-icon.png" alt="facebook-icon/png"></a>
+           <a href="https://www.youtube.com/channel/UC1KE7Hk_045VQnEhPo7rzmQ" target="_blank" onclick="audio.play()"> <img class="youtube" src="Icon/youtube.jpg" alt="youtube/png"></a>
+            <a href="https://t.me/BlackDream4444" target="_blank" onclick="audio.play()"><img class="telegram" src="Icon/telegram.jpg" alt="telegram/png"></a>
+            <a href="https://discord.gg/JVPjdMCX" target="_blank" onclick="audio.play()"><img class="discord" src="Icon/discord-icon.jpg" alt="discord-icon/png"></a>
+            </div>
+
+            <div class="Contect" style="display: none;">
+             <a href="https://discord.gg/JVPjdMCX" target="_blank">  <img src="Icon/discord-icon.jpg" style="position: fixed; top: 300px; width: 70px;cursor: url(Asset/Cursor/windows-10-aero-reloaded-cursor/move.cur),auto;"></a> 
+             <a href="https://t.me/BlackDream4444" target="_blank">     <img src="Icon/telegram.jpg" style="position: fixed; top: 300px; width: 70px; right: 550px; cursor: url(Asset/Cursor/windows-10-aero-reloaded-cursor/move.cur),auto; "></a> 
+             <a href="https://www.youtube.com/channel/UC1KE7Hk_045VQnEhPo7rzmQ" target="_blank">      <img src="Icon/youtube.jpg" style="position: fixed; top: 300px; width: 70px;right: 400px;cursor: url(Asset/Cursor/windows-10-aero-reloaded-cursor/move.cur),auto; "></a> 
+             <a href="https://www.facebook.com/profile.php?id=100067491577596" target="_blank">    <img src="Icon/facebook-icon.png" style="position: fixed; top: 300px; width: 70px; right: 260px;cursor: url(Asset/Cursor/windows-10-aero-reloaded-cursor/move.cur),auto;"></a> 
+                <h1 style="color: White; font-size:22px;position: fixed; left: 440px; ">Social Media</h1>
+                <span onclick="audio.play()"  id="Close-Content" class="Contect-Close">&times;</span>
+            </div>
+            <audio id="BgAudio" src="Asset/Audio/Dark Piano - Liar.mp3" autoplay="true"></audio>
+            <div>
+                <img onclick="audio.play()" id="Audio-On-btn" src="image/Sound-On.png" class="AudioOn">
+                <img onclick="audio.play()" id="Audio-Off-btn" src="image/Sound-Off.png" class="AudioOff" style="display: block;">
+            </div>
+
+
+            <div class="model-wrapper" style="display: none;">
+                <!-- Download Link -->
+<!--GoogleDrive--><a href="#" target="_blank"><img class="GoogleDrive" src="image/Google-Drive-Icon.png" style="display: none;"></a>
+<!--MegaDrive--><a href="#" target="_blank"><img class="MegaDrive" src="image/MegaDrive.png" style="display: block;"></a>
+<!--DirectDownload--><a href="#" target="_blank"><img class="DirectDownload" src="image/download-icon.png" style="display: block;"></a>
+<!--GitHub--><a href="#" target="_blank"><img class="GitHub" src="image/github-icon.png" style="display: block;"></a>
+               <!-- Video -->
+                <video id="Video" class="VideoClass" style="position: fixed; width: 500px; height: 300px; " src="image/NightFearVideoNew.mp4" width="1920" height="1080", autoplay="true" loop="true" muted="true"></video>
+                <!--Select Game-->
+                <h1 class="Select-Game">Select   Game   Type</h1>
+                <!--Selector-->
+                <ol class="Selector" style="color: white;">
+                    <!--GameMode Horror-->
+                  <a href="https://t.me/BlackDream4444" target="_blank"  onclick="audio.play()" id="Horrorbtn">
+                    <h1 class="Horror"  style="color: white; font-size: large;position: fixed; right: 460px; top: 265px; font-size: 25px;" >HORROR</h1> </a>
+                    <br>
+                    <!--GameMode Battleroyal-->
+                <a href="#" id="Battleroaylbtn" class="Battleroyal">    
+                    <h1 style="color: white; font-size: large;position: fixed; right: 420px; top: 330px; font-size: 25px; ">BATTLEROYAL</h1> </a>
+                    <br>
+                    <!--GameMode Survival-->
+                 <a href="#" id="Survival-btn" class="Survival">
+                    <h1 style="color: white; font-size: large;position: fixed; right: 450px; top: 400px; font-size: 25px; ">SURVIVAL</h1></a> 
+                </ol>
+                <!--NighFear Text-->
+              <a href="#"> <h1 class="NightFear" id="NightFearId"> NightFear </h1></a> 
+                <span id="None-Were-Returned"  onclick="audio.play()" class="clos-btn">&times;</span>
+                <span title="back" class="back-button">&uwangle;</span>
+            </div>
+            <h1 id="what-else" onclick="audio.play()"  class="Contect-Show">Contect</h1>
+           <h1 id="game-btn" onclick="audio.play()" class="button"> Game </h1>
+            
+           <h1 id="About-More-Id" onclick="audio.play()" class="About">About</h1>
+
+            <h1 class="NightX">NightX</h1>
+
+           <a href="#" target="_blank" id="btn" onclick="audio.play()"> <h1 class="Sign-Up">  Sign Up  </h1> </a>
+
+           <a href="#" target="_blank" id="log-in-btn" onclick="audio.play()"> 
+            <h1 class="Log-In">
+                 Log In 
+            </h1> 
+            </a>
+
+           <h3  class="BlackDream"> BlackDream</h3>
+        
+           <h5 style="color: lightblue; position: fixed; bottom: 20px; right: 495px;">Created By</h5>
+
+        <!--Script-->
+        <script type="text/javascript">
+        </script>   
+        <script src="JavaScript.js">
+        </script>
+        <script type="text/javascript">
+            const audio = new Audio();
+            audio.src="Asset/Audio/click.mp3"
+        </script>
+        <script type="text/javascript">
+            const _audio = new Audio();
+            _audio.src="Asset/Audio/clear.Mp3"
+        </script>
+        </body>
+    </head>
+</html>
